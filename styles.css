@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Lobster&family=Zen+Antique&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background: #111111;
+    background: linear-gradient(130deg, #00feba,#e98c8c);
+    filter: drop-shadow(10px 20px 20px black);
+}
+
+.main {
+    background: #2fad94;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+
+}
+
+.generator {
+    margin-top: 100px;
+    background: #303635;
+    background: linear-gradient(130deg, #00feba,#e98c8c);
+    filter: drop-shadow(10px 20px 20px black);
+}
+
+#disp{
+    width: 94vw;
+    max-width: 45%;
+    height: 50px;
+    font-size: 1.4rem;
+}
+
+#radio-cont{
+	max-width: 60vw;
+	padding: 23px;
+}
+
+.radio{
+    width: 40%;
+}
+
+.container{
+    width: 98vw;
+    max-width: 60vw;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.2) 10px 10px 20px 10px, rgba(0, 0, 0, 0.1) 4px 4px 6px 2px;
+}
+
+#btn:hover {
+    max-width: 550px;
+    transform: scale(1.1);
+    box-shadow: black  5px 5px 20px 3px;
+
+    padding: 8px 20px;
+    color: aqua;
+    font-weight: 700;
+    border-radius: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+
+
